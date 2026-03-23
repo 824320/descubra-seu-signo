@@ -1,0 +1,65 @@
+/* Estilos personalizados para Consulta de Signos */
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn-secondary {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.alert {
+    border-radius: 15px;
+    border: none;
+}
+
+.lead {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .card {
+        margin: 0 10px;
+    }
+}
